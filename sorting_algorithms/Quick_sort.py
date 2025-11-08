@@ -21,4 +21,5 @@ def quick_sort(arr):
             sort(nums, p + 1, high)
 
     sort(arr, 0, len(arr) - 1)
+
     return arr
