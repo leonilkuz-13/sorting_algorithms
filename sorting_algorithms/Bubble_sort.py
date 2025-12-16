@@ -1,4 +1,5 @@
 def Bubble_sort(array):
+    array = array[:]
     n = len(array)
     for i in range(n):
         for j in range(n - i - 1):

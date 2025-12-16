@@ -1,4 +1,6 @@
 def heap_sort(arr):
+    arr = arr[:]
+
     def heap(arr, n, i):
         largest = i
         left = i * 2 + 1
